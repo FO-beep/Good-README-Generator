@@ -72,9 +72,6 @@ function generateMarkdown(data) {
 
  ## Questions
 
- <img src = '${data.image}' alt='avatar' style = 'border -radius: 16px' width = '60'/>
-
-
 Contact [${data.name}] (${data.email}) through Github.
 
 
