@@ -71,7 +71,7 @@
 
  ## Questions
 
- <img src = 'https://avatars3.githubusercontent.com/u/11791361?v=4' alt='avatar' style = 'border -radius: 16px' width = '60'/>
+
 
 
 Contact [David] (undefined) through Github.
