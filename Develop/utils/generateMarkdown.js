@@ -1,6 +1,5 @@
 function generateMarkdown(data) {
-  return `
-   # [${data.title}]
+  return `# ${data.title}
 (https://github.com/${data.userName} /
   /${data.title})
 
@@ -11,11 +10,12 @@ function generateMarkdown(data) {
 
   \`\`\`
 
-  AS A ${data.who}
+  AS A developer
 
-  I WANT ${data.what}
+  I WANT a README generator
 
-  SO THAT I ${data.why}
+  SO THAT I can easily put together a good README for a new project
+
 
   \`\`\`
 
@@ -52,7 +52,8 @@ function generateMarkdown(data) {
 
  ## License
 
- None
+ This project is licensed under the ${data.license} license.
+
 
  ## Contributing
 
@@ -71,6 +72,9 @@ function generateMarkdown(data) {
  ## Questions
 
 Contact [${data.userName}] (${data.emailaddress}) through Github.
+
+<img src="${data.image}" width="200" height="200"/>
+
 
 ![${data.userName}](${data.avatar_url})
 `;

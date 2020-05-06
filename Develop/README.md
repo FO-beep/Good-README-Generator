@@ -1,20 +1,20 @@
-
-   # [;l;jhwe]
+# Good readme generator
 (https://github.com/FO-beep /
-  /;l;jhwe)
+  /Good readme generator)
 
   ## Description
-  lhj
+  fkg mjg
 
   ## User Story
 
   ```
 
-  AS A undefined
+  AS A developer
 
-  I WANT undefined
+  I WANT a README generator
 
-  SO THAT I undefined
+  SO THAT I can easily put together a good README for a new project
+
 
   ```
 
@@ -38,7 +38,7 @@
 
   ```
 
-  wjhnsad
+  rfgitjgti
 
  
 
@@ -46,12 +46,13 @@
 
   ## Usage
 
- ksjdf
+ gtttt
 
 
  ## License
 
- None
+ This project is licensed under the gtgtt license.
+
 
  ## Contributing
 
@@ -63,12 +64,13 @@
 
  ```
 
- kjsdhf
+ figjti
 
  ```
 
  ## Questions
 
-Contact [FO-beep] (dlksdjf) through Github.
+Contact [FO-beep] (fjirfjrg) through Github.
 
-![FO-beep](https://avatars2.githubusercontent.com/u/61364528?v=4)
+
+![FO-beep](https://avatars2.githubusercontent.com/u/61364528?v=4)" 
