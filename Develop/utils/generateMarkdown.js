@@ -41,8 +41,6 @@ function generateMarkdown(data) {
 
   ${data.installation}
 
- 
-
   \`\`\`
 
   ## Usage
@@ -61,7 +59,7 @@ function generateMarkdown(data) {
 
  ## Tests
 
- To run tests, run the following commands:
+ To run tests, run the following command:
 
  \`\`\`
 
@@ -72,9 +70,6 @@ function generateMarkdown(data) {
  ## Questions
 
 Contact [${data.userName}] (${data.emailaddress}) through Github.
-
-<img src="${data.image}" width="200" height="200"/>
-
 
 ![${data.userName}](${data.avatar_url})
 `;

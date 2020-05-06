@@ -1,9 +1,9 @@
-# Good readme generator
+# Good README Generator
 (https://github.com/FO-beep /
-  /Good readme generator)
+  /Good README Generator)
 
   ## Description
-  fkg mjg
+  This project was built to dynamically generate a README.md from a user's input.
 
   ## User Story
 
@@ -38,20 +38,18 @@
 
   ```
 
-  rfgitjgti
-
- 
+  npm i
 
   ```
 
   ## Usage
 
- gtttt
+ This application can be used to generate an up-to-date information about members of a development team.
 
 
  ## License
 
- This project is licensed under the gtgtt license.
+ This project is licensed under the MIT license.
 
 
  ## Contributing
@@ -60,17 +58,16 @@
 
  ## Tests
 
- To run tests, run the following commands:
+ To run tests, run the following command:
 
  ```
 
- figjti
+ There was no test involved.
 
  ```
 
  ## Questions
 
-Contact [FO-beep] (fjirfjrg) through Github.
+Contact [FO-beep] (fullstacked.faith@gmail.com) through Github.
 
-
-![FO-beep](https://avatars2.githubusercontent.com/u/61364528?v=4)" 
+![FO-beep](https://avatars2.githubusercontent.com/u/61364528?v=4)
