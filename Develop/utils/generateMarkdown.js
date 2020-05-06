@@ -1,7 +1,7 @@
 function generateMarkdown(data) {
   return `
    # [${data.title}]
-(https://github.com/${data.accountname} /
+(https://github.com/${data.userName} /
   /${data.title})
 
   ## Description
@@ -39,11 +39,9 @@ function generateMarkdown(data) {
 
   \`\`\`
 
-  ${data.install}
+  ${data.installation}
 
-  \`\`\`
-
-  ${data.install}
+ 
 
   \`\`\`
 
@@ -72,9 +70,9 @@ function generateMarkdown(data) {
 
  ## Questions
 
-Contact [${data.name}] (${data.email}) through Github.
+Contact [${data.userName}] (${data.emailaddress}) through Github.
 
-
+![${data.userName}](${data.avatar_url})
 `;
 }
 

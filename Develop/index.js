@@ -1,4 +1,5 @@
 ///
+require('dotenv').config()
 const fs = require('fs');
 const api = require('./utils/api');
 const inquirer = require('inquirer');
@@ -10,7 +11,7 @@ const util = require('util');
 const writeFileAsync = util.promisify(fs.writeFile)
 
 
-
+//
 function askUser() {
     return inquirer.prompt([
         //Questions
@@ -87,11 +88,16 @@ function askUser() {
 async function init() {
     try {
         const readmefile = await askUser();
-        await api.getUser(readmefile.accountname).then(function (result) {
-            readmefile.image = result.data.avatar_url;
-            readmefile.name = result.data.name;
+        // await api.getUser(readmefile.userName).then(function (result) {
+        //     readmefile.image = result.data.avatar_url;
+        //     readmefile.name = result.data.name;
 
-        });
+        // });
+
+        const gitHubAccount = await api(readmefile.userName)
+        console.log(gitHubAccount)
+
+        readmefile.avatar_url = gitHubAccount.data.avatar_url
         const mdfile = generateMarkdown(readmefile);
         await writeFileAsync('README.md', mdfile);
         console.log('README.md created');
